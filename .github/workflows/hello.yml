@@ -14,5 +14,5 @@ jobs:
           echo "Hello World!
       - name: Now it is
         run: |
-          echo data
+          echo Today is $(date)
   
