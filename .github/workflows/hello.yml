@@ -13,5 +13,8 @@ jobs:
       - name: Now it is
         run: |
           echo Today is $(date)
+      - name: Print Name
+        run: |
+          echo "My name is faizal"
 
   
